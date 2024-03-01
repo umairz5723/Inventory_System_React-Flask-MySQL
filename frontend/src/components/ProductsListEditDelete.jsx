@@ -1,6 +1,6 @@
 import './components.css';
 
-function ProductsList() {
+function ProductsListEditDelete() {
     return (
         <div className = "products-list-container">
             <ul className="column-titles">
@@ -17,4 +17,4 @@ function ProductsList() {
     );
 }
 
-export default ProductsList;
+export default ProductsListEditDelete;

@@ -39,7 +39,7 @@
 .search-product-container {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin: 25px;
     width: 600px;
     
 }
@@ -63,6 +63,7 @@
 /* ProductsList component */
 
 .products-list-container{
+    margin-top:20px;
     width: 1000px;
     height: 600px;
     background-color: white;
@@ -100,4 +101,104 @@
 
 .add-product-container {
     margin: auto;
+}
+
+
+/*-------------------------------------------------------------------------*/
+/* AddProductForm component */
+
+.product-form-container {
+    max-width: 500px;
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.product-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-form-container label {
+    width: 150px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.product-form-container input {
+    width: calc(100% - 170px); /* Adjusted width for input fields */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.product-form-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.product-form-container button:hover {
+    background-color: #0056b3;
+}
+
+
+/* ------------ MISSING RETURN FORM COMPONENT ----------------------------------------------*/
+.missing-return-form-container{
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.missing-return-form-group {
+    margin-bottom: 20px;
+}
+
+.missing-return-form-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.missing-return-form-container input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.missing-return-form-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.missing-return-form-container button:hover {
+    background-color: #45a049;
+}
+
+.missing-return-form-containerbutton[type="submit"] {
+    width: 100%;
 }
