@@ -88,7 +88,7 @@ function AddProductForm() {
                     <label>Threshold Amount:</label>
                     <input type="text" value={thresholdAmount} onChange={(e) => setThresholdAmount(e.target.value)} />
                 </div>
-                <button type="submit">Submit</button>
+                <button type="submit"> Add Product </button>
             </form>
         </div>
     );

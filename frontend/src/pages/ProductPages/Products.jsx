@@ -1,5 +1,4 @@
 import Header from '../../components/Header.jsx';
-import SearchProduct from '../../components/SearchProduct.jsx';
 import ProductsList from '../../components/ProductsListEditDelete.jsx';
 import { Link } from 'react-router-dom';
 import './Products.css';
@@ -10,7 +9,7 @@ function Products() {
         <Header />
         <div className = "home-background">
         
-            <SearchProduct/>
+    
             <ProductsList />
 
             <div className = "add-missing-product-button-container">

@@ -2,6 +2,7 @@ import Header from "../../components/Header";
 import SearchProduct from "../../components/SearchProduct";
 import ProductsListMissingDamaged from "../../components/ProductsListMissingDamaged";
 import MissingReturnForm from "../../components/MissingReturnForm";
+import './MissingReturn.css'
 
 function MissingReturn() {
     return (
