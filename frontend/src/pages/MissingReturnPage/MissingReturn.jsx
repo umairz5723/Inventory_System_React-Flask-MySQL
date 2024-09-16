@@ -8,7 +8,7 @@ function MissingReturn() {
     return (
         <div className = "home-container"> 
             <Header />
-        <div className = "add-product-top-info">
+        <div className = "missing-info">
             <h3> • Search for the product to to report missing/damaged</h3>
             <h3> • Mark the checkbox of that product </h3>
             <h3> • Fill out the Removal Form </h3>

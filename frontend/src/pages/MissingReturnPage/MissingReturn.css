@@ -1,0 +1,9 @@
+.missing-info {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.missing-info h3{
+    margin: 5px;
+}

@@ -1,5 +1,6 @@
 /* Header/Topnav bar component */
 
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -7,6 +8,13 @@
     background-color: #333;
     color: #fff;
     padding: 10px 20px;
+}
+
+
+.header-button-container{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .header-button {
@@ -63,6 +71,7 @@
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin: inherit;
 }
 
 .search-product-container button:hover {
@@ -240,4 +249,78 @@
 
 .missing-return-form-containerbutton[type="submit"] {
     width: 100%;
+}
+
+
+/** ----------- VENDORS LIST ------------------- */
+.vendors-list-container {
+    margin-top: 20px;
+    width: 1200px;
+    background-color: white;
+    overflow-y: auto;
+}
+
+.vendor-column-titles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.column-info{
+    width: 50px;
+}
+
+.vendor-column-titles li {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.vendors-list {
+    padding: 0;
+    margin: 0;
+}
+
+.vendors-list li {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none; /* Remove default list style */
+}
+
+.vendors-list li span {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    width: 306px;
+}
+
+.vendors-list li:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.vendors-list i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-span {
+    display: flex;
+    justify-content: center;
+    width: 86px;
 }

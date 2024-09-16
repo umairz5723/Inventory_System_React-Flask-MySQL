@@ -84,15 +84,15 @@ function ProductsListEditDelete() {
                 <ul className="product-list">
                     {products.map(product => (
                         <li key={product.product_id}>
-                            <span>{product.product_id}</span>
-                            <span>{product.name}</span>
-                            <span>{product.company}</span>
-                            <span>{product.weight}</span>
-                            <span>{product.price}</span>
-                            <span>{product.stock}</span>
-                            <span> <i className="fas fa-wrench"></i> </span>
-                            <span> <i className="fas fa-trash-alt fa-lg" style={{ color: 'red' }}></i></span>
-                            {/* Add more spans for other fields */}
+                            <span id = "product-id"> {product.product_id} </span>
+                            <span id = "product-name"> {product.name} </span>
+                            <span id = "product-company"> {product.company} </span>
+                            <span id = "product-weight"> {product.weight} </span>
+                            <span id = "product-price"> {product.price} </span>
+                            <span id = "product-stock"> {product.stock} </span>
+                            <span id = "product-edit"> <i className="fas fa-wrench"></i> </span>
+                            <span id = "product-delete"> <i className="fas fa-trash-alt fa-lg" style={{ color: 'red' }}></i></span>
+                            
                         </li>
                     ))}
                 </ul>
